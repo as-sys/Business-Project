@@ -24,8 +24,13 @@
         android:text="Welcome to Andrew's Computer store" />
 
     <TextView
+        android:id="@+id/ram_price"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:
-    
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="Ram Installation - $20" />
+
 </RelativeLayout>
