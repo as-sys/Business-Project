@@ -83,4 +83,25 @@
         android:fontFamily="sans-serif-medium"
         android:textColor="@android:color/black"
         android:text="Hard Drive Installation - $55" />
+
+    <TextView
+        android:id="@+id/fan_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/hardDrive_price"
+        android:layout_alignParentRight="true"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@android:color/black"
+        android:text="Case Fan - $10 (per fan)" />
+
+    <TextView
+        android:id="@+id/cleaning_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/fan_price"
+        android:layout_alignParentRight="true"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@android:color/black"
+        android:text="Computer wipe down/clean - $60" />
+
 </RelativeLayout>
