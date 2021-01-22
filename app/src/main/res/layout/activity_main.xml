@@ -18,6 +18,26 @@
         android:paddingBottom="100dp"/>
 
     <TextView
+        android:id="@+id/contactInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@android:color/black"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:text="269-808-4961" />
+
+    <TextView
+        android:id="@+id/contactInfo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@android:color/black"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:text="Every Day 8 AM - 8PM " />
+
+    <TextView
         android:id="@+id/store_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
